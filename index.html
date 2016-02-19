@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Motion Detection in JS</title>
+    <meta charset="utf-8">
+    <style>
+    body {
+        font-family: Monospace;
+        font-weight: bold;
+        background-color: #f9f9f9;
+        margin: 5px;
+        overflow: hidden;
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    #myCam {
+        display: none;
+        width: 320px;
+        height: 240px;
+    }
+    
+    canvas {
+        width: 320px;
+        height: 240px;
+        font-family: Arial;
+    }
+    
+    #messageArea {
+        font-size: 36px;
+        text-align: center;
+        margin: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <video id="myCam" autoplay></video>
+    <canvas id="videoCanvas"></canvas>
+    <canvas id="blendCanvas"></canvas>
+    <div id="messageArea"> hi</div>
+    
+<script type="text/javascript" src='script.js'></script>
+</body>
+
+
+</html>
