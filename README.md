@@ -1,5 +1,11 @@
 # Camera Motion Detection using JavaScript
 
+## Demo Link:
+
+[http://areai51.github.io/js-camera-motion-detect/](http://areai51.github.io/js-camera-motion-detect/)
+
+## Description
+
 A simple example to demonstrate motion detection using blend mode. 
 Uses WebRTC to invoke the camera.
 
